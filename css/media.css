@@ -1,0 +1,304 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .logo h1 {
+    font-size: 25px;
+  }
+  .menu ul li a {
+    font-size: 18px;
+    padding: 10px 0 0px !important;
+    text-align: right;
+  }
+
+  .s_dm {
+    min-width: 200px;
+    padding: 15px 15px;
+  }
+
+  .n-search {
+    text-align: right;
+  }
+  .s_dm[data-bs-popper] {
+    left: 22px;
+  }
+
+  /* header */
+  .s_slider {
+    margin: 70px 0;
+  }
+
+  .s_slider h1 {
+    font-size: 25px;
+  }
+  .s_slider p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    line-height: 27px;
+  }
+
+  /* welcome */
+  .ct_p {
+    font-size: 37px;
+  }
+
+  .ct_h2 {
+    font-size: 21px;
+  }
+
+  .w_content p {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
+  .wc_buy {
+    margin-top: 70px;
+  }
+
+  .wc_buy h2 {
+    font-size: 22px;
+  }
+
+  .bt_icon i {
+    font-size: 45px;
+  }
+
+  /* about */
+  .abt_text h1 {
+    font-size: 23px;
+  }
+
+  .abt_img {
+    padding: 80px 0 0;
+  }
+
+  .abt_text {
+    margin-left: 0;
+    padding: 40px 0 0;
+  }
+
+  .abt_text p {
+    line-height: 28px;
+    padding: 6px 0 26px;
+    margin-right: 0px;
+  }
+  /* choose */
+  .ch_titile {
+    padding-bottom: 35px;
+  }
+  .ch_cards {
+    margin-top: 60px;
+  }
+  .ch_cards p {
+    padding: 24px 0;
+  }
+
+  .ch_cards_top i {
+    font-size: 40px;
+  }
+
+  .ch_cards_top h2 {
+    font-size: 18px;
+
+    padding: 10px 15px 0px;
+  }
+
+  .ch_line {
+    margin-right: 5px;
+  }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .logo h1 {
+    font-size: 25px;
+  }
+  .menu ul li a {
+    font-size: 18px;
+    padding: 10px 0 5px !important;
+    text-align: right;
+  }
+
+  .s_dm {
+    min-width: 200px;
+    padding: 15px 15px;
+  }
+
+  .n-search {
+    text-align: right;
+  }
+  .s_dm[data-bs-popper] {
+    left: 240px;
+  }
+
+  /* header */
+  .s_slider {
+    margin: 110px 0;
+  }
+
+  .s_slider h1 {
+    font-size: 40px;
+  }
+
+  .s_slider p {
+    margin-top: 25px;
+    margin-bottom: 40px;
+  }
+  /* welcome */
+  .ct_p {
+    font-size: 45px;
+  }
+
+  .ct_h2 {
+    font-size: 25px;
+  }
+
+  .w_content p {
+    padding-bottom: 30px;
+  }
+
+  .wc_buy {
+    margin-top: 60px;
+  }
+
+  .wc_buy h2 {
+    font-size: 22px;
+  }
+
+  .bt_icon i {
+    font-size: 45px;
+  }
+
+  /* about */
+  .abt_text {
+    margin-left: 0;
+    padding: 60px 0 0;
+  }
+
+  .abt_text p {
+    line-height: 28px;
+    padding: 12px 0 26px;
+    margin-right: 0px;
+  }
+
+  /* choose */
+  .ch_cards p {
+    padding: 24px 0;
+  }
+
+  .ch_cards_top i {
+    font-size: 40px;
+  }
+
+  .ch_cards_top h2 {
+    font-size: 18px;
+
+    padding: 10px 15px 0px;
+  }
+
+  .ch_line {
+    margin-right: 5px;
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .menu ul li a {
+    font-size: 18px;
+    padding: 10px 0 5px !important;
+    text-align: right;
+  }
+
+  .n-search {
+    text-align: right;
+  }
+  .s_dm[data-bs-popper] {
+    left: 300px;
+  }
+
+  /* header */
+  .s_slider {
+    margin: 160px 0;
+  }
+  .s_slider h1 {
+    font-size: 37px;
+  }
+
+  /* welcome */
+  .ct_p {
+    font-size: 50px;
+  }
+
+  .ct_h2 {
+    font-size: 27px;
+  }
+
+  /* about */
+
+  .abt_text {
+    margin-left: 0;
+    padding: 50px 0 0;
+  }
+  .abt_text p {
+    line-height: 29px;
+    padding: 15px 0 33px;
+    margin-right: 0;
+  }
+  /* choose */
+  .ch_line {
+    margin-right: 40px;
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* header */
+  .s_slider h1 {
+    font-size: 50px;
+  }
+  .s_slider p {
+    margin-right: 0px;
+  }
+
+  /* welcome */
+  .ct_p {
+    font-size: 50px;
+  }
+
+  .ct_h2 {
+    font-size: 29px;
+  }
+
+  /* about */
+
+  .abt_text {
+    margin-left: 45px;
+    padding: 100px 0 0;
+  }
+  .abt_text p {
+    line-height: 23px;
+    padding: 0px 0 0px;
+    margin-right: 0;
+  }
+  /* choose */
+  .ch_line {
+    margin-right: 5px;
+  }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+
+/*Extra extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+  /* about */
+  .abt_text {
+    margin-left: 50px;
+  }
+
+  .abt_text p {
+    line-height: 35px;
+    padding: 22px 0 52px;
+    margin-right: 35px;
+  }
+}
